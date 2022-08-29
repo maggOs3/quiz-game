@@ -6,6 +6,7 @@ body{
     margin: 0;
     font-family: 'Karla', sans-serif;
     background: #F5F7FB;
+    color: #293264;
 
 }
 
@@ -25,3 +26,32 @@ body{
 .main-container > *{
     margin: 0;
 }
+
+.quizz-header{
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 37px;
+}
+
+.quizz-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.quizz-button{
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    border-width: 0;
+    /*button description*/
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5F7FB;
+}
+
