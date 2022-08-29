@@ -55,3 +55,13 @@ body{
     color: #F5F7FB;
 }
 
+.blob-y{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.blob-b{
+    position: absolute;
+    bottom: 0;
+}
