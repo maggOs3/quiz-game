@@ -5,5 +5,23 @@
 body{
     margin: 0;
     font-family: 'Karla', sans-serif;
-    background-color: aqua;
+    background: #F5F7FB;
+
+}
+
+.main-container{
+    width: 412px;
+    height: 148px;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20%; /*????*/
+    
+}
+
+.main-container > *{
+    margin: 0;
 }
