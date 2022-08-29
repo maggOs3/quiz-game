@@ -1,7 +1,12 @@
 import React from "react";
+import Welcome from "./components/welcome-page";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Welcome />
+    </div>
+  );
 }
 
 export default App;
