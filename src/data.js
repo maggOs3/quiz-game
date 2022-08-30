@@ -1,4 +1,4 @@
-export default [
+const d = [
   {
     id: 1,
     category: "Science & Nature",
@@ -52,3 +52,5 @@ export default [
     incorrect_answers: ["32", "-39", "-42"],
   },
 ];
+
+export default d;

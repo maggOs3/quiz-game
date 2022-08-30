@@ -1,12 +1,14 @@
 import React from "react";
-import Welcome from "./components/welcome-page";
+// import Welcome from "./components/welcome-page";
+import Quiz from "./components/Quiz";
+import data from "./data";
 
 function App() {
-  return (
-    <div>
-      <Welcome />
-    </div>
-  );
+  const quiz = data.map((item) => {
+    return <Quiz item={item} />;
+  });
+
+  return <div>{quiz}</div>;
 }
 
 export default App;
