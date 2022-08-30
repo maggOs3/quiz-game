@@ -8,7 +8,12 @@ function App() {
     return <Quiz item={item} />;
   });
 
-  return <div>{quiz}</div>;
+  return (
+    <div>
+      <div>{quiz}</div>
+      <button>Check answers</button>
+    </div>
+  );
 }
 
 export default App;
