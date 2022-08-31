@@ -67,7 +67,7 @@ body{
 }
 
 .quiz-size{
-    width: 399px;
+    width: 430px;
     height: 430px;
     margin-top: 158px;
     margin-left: 40%;
@@ -76,4 +76,27 @@ body{
 .question{
     font-size: 16px;
     line-height: 19px;
+}
+
+.var-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-style{
+    width: 65.92px;
+    height: 20.65px;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 7.94239px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #293264;
+    background: #F5F7FB;
+}
+
+.q-and-var-container{
+    margin-bottom: 50px;
 }

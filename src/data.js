@@ -16,12 +16,8 @@ const d = [
     difficulty: "medium",
     question:
       "Pink Floyd made this song for their previous lead singer Syd Barrett.",
-    correct_answer: "Shine On You Crazy Diamond",
-    incorrect_answers: [
-      "Wish You Were Here",
-      "Have A Cigar",
-      "Welcome to the Machine",
-    ],
+    correct_answer: "Shine",
+    incorrect_answers: ["Wish", "Have a c", "Welcome"],
   },
   {
     id: 3,
@@ -38,7 +34,7 @@ const d = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which country does the electronic music duo &quot;The Knife&quot; originate from?",
+      "Which country does the electronic music duo 'The Knife' originate from?",
     correct_answer: "Sweden",
     incorrect_answers: ["Finland", "Denmark", "Norway"],
   },

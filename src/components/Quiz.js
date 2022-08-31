@@ -4,13 +4,13 @@ export default function Quiz(props) {
   console.log(props);
   const incAnswArr = props.item.incorrect_answers; /*mb use state*/
   const inAnsw = incAnswArr.map((answer) => {
-    return <button>{answer}</button>;
+    return <button className="button-style">{answer}</button>;
   });
   return (
-    <div>
+    <div className="q-and-var-container">
       <h3 className="question">{props.item.question}</h3>
-      <div>
-        <button>{props.item.correct_answer}</button>
+      <div className="var-container">
+        <button className="button-style">{props.item.correct_answer}</button>
         {inAnsw}
       </div>
 
