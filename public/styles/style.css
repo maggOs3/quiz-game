@@ -100,3 +100,9 @@ body{
 .q-and-var-container{
     margin-bottom: 50px;
 }
+
+.hr-question{
+    margin-top: 15px;
+    border: 0.794239px solid #DBDEF0;
+    transform: rotate(-0.05deg);
+}

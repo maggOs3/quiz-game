@@ -14,7 +14,7 @@ export default function Quiz(props) {
         {inAnsw}
       </div>
 
-      {/* <hr></hr> */}
+      <hr className="hr-question"></hr>
     </div>
   );
 }
