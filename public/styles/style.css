@@ -65,3 +65,15 @@ body{
     position: absolute;
     bottom: 0;
 }
+
+.quiz-size{
+    width: 399px;
+    height: 430px;
+    margin-top: 158px;
+    margin-left: 40%;
+}
+
+.question{
+    font-size: 16px;
+    line-height: 19px;
+}

@@ -10,8 +10,10 @@ function App() {
 
   return (
     <div>
-      <div>{quiz}</div>
-      <button>Check answers</button>
+      <div className="quiz-size">
+        <section>{quiz}</section>
+      </div>
+      {/* <button>Check answers</button> */}
     </div>
   );
 }

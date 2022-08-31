@@ -8,13 +8,13 @@ export default function Quiz(props) {
   });
   return (
     <div>
-      <h3>{props.item.question}</h3>
+      <h3 className="question">{props.item.question}</h3>
       <div>
         <button>{props.item.correct_answer}</button>
         {inAnsw}
       </div>
 
-      <hr></hr>
+      {/* <hr></hr> */}
     </div>
   );
 }
