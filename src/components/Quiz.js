@@ -5,6 +5,16 @@ export default function Quiz(props) {
   const incAnswArr = props.item.incorrect_answers; /*mb use state*/
 
   const [z, zz] = React.useState(false);
+  React.useEffect(() => {
+    let pepe = 0;
+    if (z === true) {
+      pepe = pepe + 1;
+    } else {
+      pepe = pepe - 1;
+    }
+    console.log(pepe);
+  });
+
   console.log(z);
   const inAnsw = incAnswArr.map((answer) => {
     return (
